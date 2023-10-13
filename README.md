@@ -22,7 +22,7 @@ Notes:
   - RFR has better fit on training data, but does very poorly on test split (worse than RR)
   - Demographic information was trained upon 
   - Target is the log of unit sales
-  - Arbitrary 'week' timestamps were converted to dates starting in January 2021. 
+  - Arbitrary 'week' timestamps were converted to 2023 dates. 
 
 Refs for other modeling techniques in public domain:
 - https://github.com/microsoft/forecasting/blob/master/examples/grocery_sales/python/00_quick_start/lightgbm_single_round.ipynb
